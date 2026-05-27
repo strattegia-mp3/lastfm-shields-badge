@@ -1,0 +1,37 @@
+{
+  "name": "Last.fm GitHub Badge Generator",
+  "short_name": "Last.fm Badge",
+  "description": "API serverless para gerar badges dinâmicos com scrobbles do Last.fm para o seu perfil do GitHub.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#d51007",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "developer",
+    "utilities",
+    "productivity"
+  ],
+  "lang": "pt-BR",
+  "dir": "ltr"
+}
