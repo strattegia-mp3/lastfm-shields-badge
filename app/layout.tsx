@@ -58,6 +58,13 @@ export const metadata: Metadata = {
     description: "Exiba seus scrobbles do Last.fm no seu GitHub Readme.",
     images: ["/og/og-image.webp"],
   },
+  icons: {
+    icon: [
+      { url: "./favicon.ico", sizes: "32x32" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({
